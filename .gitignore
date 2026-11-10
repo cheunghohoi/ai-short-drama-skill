@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 生成物（用户自己的项目不要进仓库）
+clips/
+06-export/
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 临时
+.scratch/
+*.log
