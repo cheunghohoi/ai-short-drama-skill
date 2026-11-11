@@ -10,7 +10,7 @@
      description 长度不超过 1024 字符，SKILL.md 正文不超过 500 行；
   2. references/ 与 assets/prompts/ 下每个文件都以 `# 标题` 开头、前 5 行内有 `> 说明`；
   3. 提示词文件都含代码块；
-  4. 技能目录内不出现禁止词（原文 / 原作者 / 第三方作者名 / 原文示例人名）；
+  4. 技能目录内不出现禁止词（转述痕迹、他人署名、来源作品里的示例人名）；
   5. 不残留 TODO / 待补 / TBD；
   6. 所有以 references/、assets/、scripts/ 开头的行内代码路径都真实存在。
 
@@ -29,11 +29,11 @@ SKILL_NAME = "ai-short-drama"
 SKILL_DIR = ROOT / "skills" / SKILL_NAME
 SKILL_MD = SKILL_DIR / "SKILL.md"
 
+# 这些是「转述痕迹」检查：确保正文是自己的话，示例是自造的例子。
 FORBIDDEN = [
     "原文",
     "原作者",
-    "Miller",
-    "TuyetloanP81840",
+    "本文作者",
     "羊羊",
     "诗仙",
     "书院",

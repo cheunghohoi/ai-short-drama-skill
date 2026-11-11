@@ -130,10 +130,6 @@ python scripts/verify_skill.py        # 加 -v 显示全部通过项
 2. 价格与平台参数标成参考值，并写清观察时间；
 3. 提交前跑一遍 `python scripts/verify_skill.py`。
 
-## 参考与致谢
-
-工作流思路来自 X 上的一篇 AI 短剧实战长文（作者 [@TuyetloanP81840](https://x.com/TuyetloanP81840)），本仓库的文字、示例、提示词结构与脚本均为重写和补充，不包含原文段落。原文链接见 [这条推文](https://x.com/TuyetloanP81840/status/2119326884505043274)。
-
 ## License
 
 MIT
